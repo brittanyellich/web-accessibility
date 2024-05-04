@@ -1,0 +1,42 @@
+# Accessibility testing checklist
+
+A high-level list of things to test when reviewing code or testing your website
+
+- [ ] [HTML Validation](https://validator.w3.org/nu)
+- [ ] [Automated accessibility scan - WAVE](https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
+- [ ] [Automated accessibility scan - Axe Devtools](https://www.deque.com/axe/devtools/)
+- [ ] Screen reader check
+  - [ ] All information is read
+  - [ ] Visual elements are read
+  - [ ] State and content changes are read
+  - [ ] Everything can be navigated to
+  - [ ] Your page has a logical flow from top to bottom
+- [ ] Keyboard check
+  - [ ] You can navigate to each feature
+  - [ ] You know where the focus is everywhere (`document.activeElement`)
+  - [ ] You don't get trapped anywhere
+- [ ] Mouse/Touch
+  - [ ] Mouse action is on release, not on a "down event"
+- [ ] Timing
+  - [ ] Users have plenty of time or can adjust, turn off, or extend timers
+- [ ] Visual
+  - [ ] Color contrast is acceptable
+  - [ ] Color alone doesn't convey information
+  - [ ] Feature is usable when zooming
+  - [ ] All screen sizes are tested
+  - [ ] Visible in portrait and landscape mode
+- [ ] Media
+  - [ ] Images have alt text
+  - [ ] Videos/audio have transcripts
+  - [ ] Videos have captions
+  - [ ] Videos/audio shouldn't automatically start playing
+- [ ] Semantic HTML check
+  - [ ] HTML Overview (doctype, html tag, language, charset, title)
+  - [ ] Landmarks (main landmark, landmarks are used where they make sense)
+  - [ ] Navigation (skip link if navigation is lengthy)
+  - [ ] Headings are used correctly
+  - [ ] Buttons and links are used correctly
+  - [ ] Lists are used where needed
+  - [ ] Tables are used for tabular data and have proper scopes and a summary
+  - [ ] Forms are correct (types on inputs, all fields have a label, required fields communicated, errors are explicit)
+  - [ ] Text copy is understandable and free of technical jargon and acronyms
