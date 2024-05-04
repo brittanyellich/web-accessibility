@@ -1,6 +1,6 @@
 # Web Accessibility for Developers
 
-A collection of notes on accessibility to share. Check out the slides for this talk here!
+A collection of notes on accessibility to share. Check out the slides for this talk here (coming soon!)
 
 ## Content
 
