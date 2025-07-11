@@ -29,6 +29,22 @@ Check out the slides at the repo link.
 
 Welcome to my talk: Accessible by Design - Web accessibility essentials for developers
 
+-->
+
+---
+transition: slide-left
+layout: image-right
+image: 'images/alttext.png'
+---
+
+# About me
+
+- Senior software engineer at GitHub
+- Speaker, educator, advocate for developers
+- Newsletter, podcast, and blog posts
+- Amateur meme creator
+
+<!--
 Hello my name is Brittany Ellich - Software engineer at GitHub, speaker, and educator helping developers build better software, stronger careers, and a more inclusive tech industry.
 
 Disclaimer: 
@@ -36,6 +52,7 @@ I’m not an expert.
 These are my own thoughts, opinions, and learnings, and don’t reflect the opinions of my employer
 GitHub does care a lot about accessibility, though! - https://accessibility.github.com/
 
+Meme: Usefulness of alt text (ironic because this image has no alt text) - make it descriptive but not a novel
 -->
 
 ---
@@ -122,12 +139,17 @@ Anne Gibson article: An Alphabet of Accessibility Issues
 -->
 
 ---
-layout: default
+transition: slide-left
+layout: image-right
+image: 'images/a11y.png'
 ---
 
 # What is accessibility?
 
-A11y
+<!--
+Accessibility -> A11y , 11 letters between the A and the y
+(Not to be confused with ally)
+-->
 
 ---
 layout: default
